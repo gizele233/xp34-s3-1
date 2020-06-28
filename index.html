@@ -8,16 +8,63 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
 
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Template</title>
   </head>
+
   <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-light navStyle">
+
+      <a class="navbar-brand" href="#">SIGMA</a>
+
+      <button class="btn btn-sm navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Carrosel-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próxima</span>
+      </a>
+    </div>
     
+    
+    <!--Rodapé-->
 
+    <footer id="footerStyle">
+      <small id="copyright">&copy; 2020 SIGMA</small>
+    </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- JavaScript -->
+    <script type="text/javascript" src="javascript/quizzflow.js"></script>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
