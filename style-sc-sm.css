@@ -13,6 +13,7 @@
 }
 
 #init-card-title{
+<<<<<<< HEAD
     margin: auto;
     position: relative;
     padding: 20px 20px 0px 20px;
@@ -44,6 +45,39 @@
     padding: 20px 20px 20px 20px;
     margin: auto;
     position: relative;
+=======
+    margin: auto;
+    position: relative;
+    padding: 20px 20px 0px 20px;
+
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #2F4494;
+}
+
+#init-card-body{
+    margin: auto;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F4494;
+}
+
+.init-card-footer{
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    position: relative;
+>>>>>>> template-1.0.1-G
     text-align: center;
     background: #ffffff;
 }
@@ -70,10 +104,26 @@
     margin: auto;
     justify-content: center;
 }
+.card-space{
+    margin: 14px;
+    text-align: center;
+    justify-content: center;
+
+}
 #card-content{
     margin: auto;
     justify-content: center;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#card-agradec{
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+}
+=======
+>>>>>>> template-1.0.1-G
 
 #init-btn{
     padding: 30px;
@@ -87,6 +137,10 @@
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> template-1.0.1
+>>>>>>> template-1.0.1-G
 #copyright{
     position: relative;
     padding-left: 40%;
