@@ -1,19 +1,70 @@
 .nav{
-    background-color: rgba(0, 0, 0, 0.9);
+
 }
-.footer{
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #FFF;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.nav-brand{
+    height: 3.5em;
 }
-.card{
-    width: 18rem;
-    padding-top: 40px;
+
+#init-card-div{
     margin: auto;
+    position: relative;
+    background: #B5E8FA;
+    border-radius: 25px;
+}
+
+#init-card-title{
+    margin: auto;
+    position: relative;
+    padding: 20px 20px 0px 20px;
+
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #2F4494;
+}
+
+#init-card-body{
+    margin: auto;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F4494;
+}
+
+.init-card-footer{
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    background: #ffffff;
+}
+
+.buttons{
+    position: relative;
+    padding: 20px 20px 20px 20px;
     justify-content: center;
-    background-color: rgba(97, 255, 247, 0.315);
+    font-size: 17px;
+    height: 50px;
+    width: 90%;
+    border-radius: 30px;
+    background: #2F4494;
+
+}
+
+
+
+.card{
+    margin: auto;
+    padding: 20px 20px 20px 20px;
 }
 .card-tittle{
     margin: auto;
@@ -29,11 +80,27 @@
     margin: auto;
     justify-content: center;
 }
+<<<<<<< HEAD
 #card-agradec{
     text-align: center;
     justify-content: center;
     margin: 40px;
 }
+=======
+
+#init-btn{
+    padding: 30px;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgba(0, 0, 0, 1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+>>>>>>> template-1.0.1
 #copyright{
     position: relative;
     padding-left: 40%;
