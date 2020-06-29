@@ -1,0 +1,33 @@
+.nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 40px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.card{
+    width: 18rem;
+    padding-top: 40px;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(97, 255, 247, 0.315);
+}
+.card-tittle{
+    margin: auto;
+    justify-content: center;
+}
+#card-content{
+    margin: auto;
+    justify-content: center;
+}
+#copyright{
+    position: relative;
+    padding-left: 40%;
+}
+
+
+/* tipografia */
