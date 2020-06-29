@@ -19,9 +19,23 @@
     margin: auto;
     justify-content: center;
 }
+.card-space{
+    margin: 14px;
+    text-align: center;
+    justify-content: center;
+
+}
+.icone{
+    text-decoration: none;
+}
 #card-content{
     margin: auto;
     justify-content: center;
+}
+#card-agradec{
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
 }
 #copyright{
     position: relative;
