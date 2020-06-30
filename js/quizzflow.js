@@ -4,7 +4,7 @@ var resposta;
 
 var httpRequest;
 
-
+/*assicronismo*/
 function fazerRequisicao(url, destino){
 
     document.getElementById(destino).innerHTML = "<center><img src='loader.gif'></center>";
@@ -62,8 +62,47 @@ function situacaoRequisicao(){
 
 }
 
-function pergunta(nquest, resp, url){
-    if(nquest==2 && resp=='b'){
-        alert('vai para 2.1');
+/*Transição das perguntas*/
+function pergunta(nquest, resp, destino){
+
+    var url;
+
+    if(destino=='page2'){
+        if(resp=='a'){
+            addRespostas(nquest,resp);
+            return fazerRequisicao('page2-especial.html', destino)
+        }
     }
+    if(destino=='page2e'){
+        url='page3.html';
+        addRespostas(nquest,resp);
+        return fazerRequisicao(url, destino);
+    }
+    if(destino=='regs'){
+        url='page_agradec.html'
+        addRespostas(nquest,resp);
+        return fazerRequisicao(url, destino);
+    }
+    else{
+        addRespostas(nquest,resp);
+        url='page'+(nquest+1)+'.html';
+        return fazerRequisicao(url, destino);
+    }
+}
+
+/**Adicionar elementos das listas**/
+function addRespostas(nquest, resp){
+
+}
+
+/**Adiciona areas**/
+function addEntrada(nquest, frm1, page) {
+
+    var entrada = document.getElementById(frm1);
+    
+    var resp = entrada.nodeValue;
+
+    alert(resp);
+    return pergunta(nquest, resp, page);
+
 }

@@ -1,32 +1,41 @@
-<div class="" id="faq-card">
-  <div class="card-body bg-card" id="cardStyle">
-    <h5 class="card-title init-car-title">Título do card</h5>
-  </div>
-  
-  <div>
-    <ul class="list-group" data-toggle="buttons">
-      
-      <li class="btn btn-outline-primary btn-sm btn-faq">
-        <a type="button" name="options" id="option1" autocomplete="off" onclick="alert=('funcionou')"> Resposta 1
-      </li>
-      
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option2" autocomplete="off" onclick="perguntas(1,rep_a)"> Resposta 2
-      </li>  
-  
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option3" autocomplete="off" onclick="perguntas(1,rep_a)"> Resposta 3
-      </li>    
-  
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option4" autocomplete="off" onclick="perguntas(1,rep_a)"> Resposta 4
-      </li>
-  
-    </ul>
-  </div>
+<div id="page2">
+  <div class="" id="faq-card">
+    <div class="card-body bg-card" id="cardStyle">
+      <h5 class="card-title init-car-title">
+        Qual tamanho da empresa em que você trabalha? 
+      </h5>
+    </div>
     
-  <div class="card-body" id="card-content">
-    <a href="index.html" class="btn btn-primary card buttons">Voltar ao inicio</a>
-  </div>
+    <div>
+      <ul class="list-group" data-toggle="buttons">
+        
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                type="button" onclick="pergunta(2,'a','page2')">
+                Microempresa
+        </button>
 
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                type="button" onclick="pergunta(2,'b','page2')">
+                Pequena empresa
+        </button>
+
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                type="button" onclick="pergunta(2,'c','page2')">
+                Média empresa
+        </button>
+
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                type="button" onclick="pergunta(2,'d','page2')">
+                Grande empresa
+        </button>
+    
+      </ul>
+    </div>
+      
+    <div class="card-body" id="card-content">
+      <a class="btn btn-primary card buttons"
+       onclick="fazerRequisicao('page1.html', 'page2')">Voltar para anterior</a>
+    </div>
+
+  </div>
 </div>

@@ -1,32 +1,41 @@
-<div class="" id="faq-card">
-  <div class="card-body bg-card" id="cardStyle">
-    <h5 class="card-title init-car-title">Título do card</h5>
-  </div>
-  
-  <div>
-    <ul class="list-group" data-toggle="buttons">
-      
-      <li class="btn btn-outline-primary btn-sm btn-faq">
-        <a type="button" name="options" id="option1" autocomplete="off"> Resposta 1
-      </li>
-      
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option2" autocomplete="off"> Resposta 2
-      </li>  
-  
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option3" autocomplete="off"> Resposta 3
-      </li>    
-  
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option4" autocomplete="off"> Resposta 4
-      </li>
-  
-    </ul>
-  </div>
+<div id="page5">
+  <div class="" id="faq-card">
+    <div class="card-body bg-card" id="cardStyle">
+      <h5 class="card-title init-car-title">
+        Qual maior desafio no seu trabalho?
+      </h5>
+    </div>
     
-  <div class="card-body" id="card-content">
-    <a href="index.html" class="btn btn-primary card buttons">Voltar ao inicio</a>
+    <div>
+      <ul class="list-group" data-toggle="buttons">
+        
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(5,'a','page5')">
+                 Falha na comunicação
+        </button>
+  
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(5,'b','page5')">
+                 Resultados não previstos
+        </button>
+  
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(5,'c','page5')">
+                 Processos burocráticos
+        </button>
+  
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(5,'d','page5')">
+                 Indefinição de tarefas e responsabilidades
+        </button>
+    
+      </ul>
+    </div>
+      
+    <div class="card-body" id="card-content">
+      <a class="btn btn-primary card buttons" 
+         onclick="fazerRequisicao('page4.html', 'page5')">Voltar para anterior</a>
+    </div>
+  
   </div>
-
 </div>

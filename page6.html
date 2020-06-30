@@ -1,32 +1,42 @@
-<div class="" id="faq-card">
-  <div class="card-body bg-card" id="cardStyle">
-    <h5 class="card-title init-car-title">Título do card</h5>
-  </div>
-  
-  <div>
-    <ul class="list-group" data-toggle="buttons">
-      
-      <li class="btn btn-outline-primary btn-sm btn-faq">
-        <a type="button" name="options" id="option1" autocomplete="off"> Resposta 1
-      </li>
-      
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option2" autocomplete="off"> Resposta 2
-      </li>  
-  
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option3" autocomplete="off"> Resposta 3
-      </li>    
-  
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option4" autocomplete="off"> Resposta 4
-      </li>
-  
-    </ul>
-  </div>
+<div id="regs">
+  <div class="" id="faq-card">
+    <div class="card-body bg-card" id="cardStyle">
+      <h5 class="card-title init-car-title">
+        Qual ferramenta você utiliza para gestão dos processos?
+      </h5>
+    </div>
     
-  <div class="card-body" id="card-content">
-    <a href="index.html" class="btn btn-primary card buttons">Voltar ao inicio</a>
+    <div>
+      <ul class="list-group" data-toggle="buttons">
+        
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(6,'a','regs')">
+                 Trello
+        </button>
+  
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(6,'b','regs')">
+                 Pipefy
+        </button>
+  
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(6,'c','regs')">
+                 Nenhuma
+        </button>
+  
+        <form class="form" id="frm1">
+          <input class="input" type="text" name="fname" placeholder="  Outra">
+          <input class="list-item btn btn-primary btn-form"
+            type="button" onclick="addEntrada(6, 'frm1', 'regis')" value="Continuar">
+        </form>
+    
+      </ul>
+    </div>
+      
+    <div class="card-body" id="card-content">
+      <a class="btn btn-primary card buttons"
+        onclick="fazerRequisicao('page5.html', 'regs')">Voltar para anterior</a>
+    </div>
+  
   </div>
-
 </div>

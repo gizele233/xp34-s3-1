@@ -1,32 +1,48 @@
-<div class="" id="faq-card">
-  <div class="card-body bg-card" id="cardStyle">
-    <h5 class="card-title init-car-title">Título do card</h5>
-  </div>
-  TESTE
-  <div>
-    <ul class="list-group" data-toggle="buttons">
-      
-      <li class="btn btn-outline-primary btn-sm btn-faq">
-        <a type="button" name="options" id="option1" autocomplete="off"> Resposta 1
-      </li>
-      
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option2" autocomplete="off"> Resposta 2
-      </li>  
+<div id="page3">
+  <div class="" id="faq-card">
+    <div class="card-body bg-card" id="cardStyle">
+      <h5 class="card-title init-car-title">
+        Você trabalha em qual área?
+      </h5>
+    </div>
   
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option3" autocomplete="off"> Resposta 3
-      </li>    
+    <div>
+      <ul class="list-group" data-toggle="buttons">
+        
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(3,'Financeira','page3')">
+                 Financeira
+        </button>
   
-      <li class="btn btn-outline-primary btn-sm  btn-faq">
-        <a type="button" name="options" id="option4" autocomplete="off"> Resposta 4
-      </li>
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(3,'Marketing/Vendas','page3')">
+                 Marketing/Vendas
+        </button>
   
-    </ul>
-  </div>
-    
-  <div class="card-body" id="card-content">
-    <a href="index.html" class="btn btn-primary card buttons">Voltar ao inicio</a>
-  </div>
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(3,'Gestão de pessoas','page3')">
+                 Gestão de pessoas
+        </button>
+  
+        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
+                 type="button" onclick="pergunta(3,'Tecnologia','page3')">
+                 Tecnologia
+        </button>
 
+        <form class="form" id="frm1">
+          <input class="input" type="text" name="fname" placeholder="  Outra">
+          <input class="list-item btn btn-primary btn-form"
+            type="button" onclick="addEntrada(3, 'frm1', 'page3')" value="Continuar">
+        </form>
+
+    
+      </ul>
+    </div>
+      
+    <div class="card-body" id="card-content">
+      <a class="btn btn-primary card buttons"
+       onclick="fazerRequisicao('page2.html', 'page3')">Voltar para anterior</a>
+    </div>
+  
+  </div>
 </div>
