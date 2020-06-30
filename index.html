@@ -16,13 +16,13 @@
 
   </head>
 
-  <body style="overflow-y: hidden;overflow-x: hidden;">
+  <body style="overflow: hidden;">
 
     <!--Navbar-->
 
-    <nav class="navbar navbar-expand-sm navbar-dark nav">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light nav">
 
-      <a class="navbar-brand" href="#">SIGMA</a>
+      <a class="navbar-brand" href="#"><img class="nav-brand" src="images/Sigma3 1.png"></a>
 
       <button class="btn btn-sm navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" 
               aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,11 +39,48 @@
     </nav>
 
     <!--Card central-->
+    <div class="card" id="div_conteudo">
+      <div class="list-group" id="init-card-div">
 
-    <section #conteudo>
-      
+        <h3 class="list-item" id="init-card-title">
+          Como está a organização do seu trabalho?
+        </h3>
 
-    </section>
+        <p class="list-item" id="init-card-body">
+          A vida é muito curta pra perder tempo se organizando com processos do trabalho.
+          No contexto da pandemia então... vish! Home office, readaptação de etapas do nosso trabalho!
+          Sabemos como você se sente!
+          
+        </p>
+
+        <p class="list-item" id="init-card-body">
+          Por isso preparamos um quizz especialmente para você!
+          Responda e receba dicas específicas para ajudar na organização do seu trabalho!
+        </p>
+
+        <div id="init-btn">
+          <a href="#" class="list-item btn btn-primary card buttons"
+             onclick="fazerRequisicao('page1.html', 'div_conteudo')">
+             Iniciar teste
+          </a>
+          
+        </div>  
+      </div>
+
+      <div class="list-group init-card-footer">
+        <h3 style="padding: 10px 10px 0px 10px;" class="list-item">
+          O que é a Sigma?
+        </h3>
+
+        <p style="padding-top: 10px" class="list-item">
+          Somos uma empresa que proporciona uma gestão de processos de forma fácil 
+          e ágil com o objetivo de ajudar nossos clientes a ter mais controle de suas tarefas
+        </p>
+
+      </div>
+
+    </div>
+
 
     <!--Rodapé-->
 
@@ -51,11 +88,22 @@
       <small id="copyright">&copy; 2020 SIGMA</small>
     </footer>
 
+    <!--Javascript quizz-->
+    <script type="text/javascript" src="js/quizzflow.js"></script>
 
     <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!--Firebase-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+    <!-- https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+    <script src="js/firebase.js"></script>
 
   </body>
 </html>
