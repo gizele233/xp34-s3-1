@@ -1,4 +1,9 @@
+var name;
+var email;
+var resposta;
+
 var httpRequest;
+
 
 function fazerRequisicao(url, destino){
 
@@ -7,25 +12,27 @@ function fazerRequisicao(url, destino){
     if(window.XMLHttpRequest){
         httpRequest = new XMLHttpRequest();
     }
+
     else if(window.ActiveXObject){
         try{
 
             httpRequest = new ActiveXObject("Msxml2.XMLHTTP");
-
+        
         }
+
         catch(e){
 
             try{
 
                 httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
-
             }
+            
             catch(e){
 
                 alert("Impossível instanciar o objeto XMLHttpRequest para esse navegador/versão");
-
+            
             }
-
+        
         }
     }
 
@@ -35,7 +42,7 @@ function fazerRequisicao(url, destino){
     }
 
     httpRequest.onreadystatechange = situacaoRequisicao;
-
+    
     httpRequest.open("GET", url);
     httpRequest.send();
 
@@ -44,13 +51,19 @@ function fazerRequisicao(url, destino){
 function situacaoRequisicao(){
 
     if(httpRequest.readyState == 4){
-        
+
         if(httpRequest.status == 200){
 
             document.getElementById('div_conteudo').innerHTML = httpRequest.responseText;
-
+        
         }
 
     }
 
+}
+
+function pergunta(nquest, resp, url){
+    if(nquest==2 && resp=='b'){
+        alert('vai para 2.1');
+    }
 }
