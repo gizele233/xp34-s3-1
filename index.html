@@ -7,7 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+        
     <link rel="stylesheet" media="" href="style-sc-sm.css">
 
     <title>Sigma</title>
@@ -30,7 +33,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
@@ -38,76 +41,68 @@
       </div>
     </nav>
 
+
     <!--Card central-->
-    <div class="card" id="div_conteudo">
-      <div class="list-group" id="init-card-div">
+    <div id="div_conteudo">
 
-        <h3 class="list-item init-card-title">
-          Como está a organização do seu trabalho?
-        </h3>
+      <div class="card" id="bg-card">
 
-        <p class="list-item" id="init-card-body">
-          A vida é muito curta pra perder tempo se organizando com processos do trabalho.
-          No contexto da pandemia então... vish! Home office, readaptação de etapas do nosso trabalho!
-          Sabemos como você se sente!
-          
-        </p>
+        <div class="title-div">
+          <h3 class="title"> Como está a organização do seu trabalho? </h3>
+        </div>
 
-        <p class="list-item" id="init-card-body">
-          Por isso preparamos um quizz especialmente para você!
-          Responda e receba dicas específicas para ajudar na organização do seu trabalho!
-        </p>
+         <div id="text-div">
 
-        <div id="init-btn">
-          <a href="#" class="list-item btn btn-primary card buttons"
-             onclick="(fazerRequisicao('page1.html', 'div_conteudo'))">
-             Iniciar teste
-          </a>
-          
-        </div>  
+          <p class="text-content">
+            A vida é muito curta pra perder tempo se organizando com processos do trabalho.
+             No contexto da pandemia então... vish! Home office, readaptação de etapas do nosso trabalho...
+              Sabemos como você se sente <b style="font-size: 18px;">&lt;</b>3
+          </p>
+  
+          <p class="text-content">
+            Por isso preparamos um quiz especialmente para você!
+             Responda e receba gratuitamente uma dica e um e-book em seu e-mail
+              para ajudar na organização do seu trabalho!!
+          </p>
+
+          <p class="text-content" id="text-draft">Disponível apenas até QUINTA (dia 02/07).</p>
+
+        </div>
+
+        <button id="btn-start" onclick="(fazerRequisicao('page1.html', 'div_conteudo'))">
+          Iniciar teste
+        </button>
+  
       </div>
-
-      <div class="list-group init-card-footer">
-        <h3 style="padding: 10px 10px 0px 10px;" class="list-item">
-          O que é a Sigma?
-        </h3>
-
-        <p style="padding-top: 10px" class="list-item">
-          Somos uma empresa que proporciona uma gestão de processos de forma fácil 
-          e ágil com o objetivo de ajudar nossos clientes a ter mais controle de suas tarefas
-        </p>
-
-      </div>
-
     </div>
-
 
     <!--Rodapé-->
 
-    <footer class="footer">
+    <footer id="footer">
       <small id="copyright">&copy; 2020 SIGMA</small>
     </footer>
 
-    <!--Javascript quizz-->
+    <!--Javascript-->
     <script type="text/javascript" src="js/quizzflow.js"></script>
     <script type="text/javascript" src="js/operate.js"></script>
     <script type="text/javascript" src="js/addEntrada.js"></script>
+
 
     <!-- jQuery, Popper.js, Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
+
     <!--Firebase-->
+    <script src="js/firebase.js"></script>
+    <script src="js/shtl-database.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
-
-    <script src="js/firebase.js"></script>
-    <script src="js/shtl-database.js"></script>
 
   </body>
 </html>

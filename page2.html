@@ -1,41 +1,24 @@
-<div id="page2">
-  <div class="" id="faq-card">
-    <div class="card-body bg-card" id="cardStyle">
-      <h5 class="card-title init-car-title">
-        Qual tamanho da empresa em que você trabalha? 
-      </h5>
-    </div>
-    
-    <div>
-      <ul class="list-group" data-toggle="buttons">
-        
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                type="button" onclick="pergunta(2,'a','page2')">
-                Microempresa
-        </button>
+<div class="card bg-faq">
 
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                type="button" onclick="pergunta(2,'b','page2')">
-                Pequena empresa
-        </button>
-
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                type="button" onclick="pergunta(2,'c','page2')">
-                Média empresa
-        </button>
-
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                type="button" onclick="pergunta(2,'d','page2')">
-                Grande empresa
-        </button>
-    
-      </ul>
-    </div>
+  <div id="title-div1">
+    <h3 class="title"> Qual tamanho da empresa em que você trabalha? </h3>
+  </div>
+  
+  <div class="btn-div">
       
-    <div class="card-body" id="card-content">
-      <a class="btn btn-primary card buttons"
-       onclick="fazerRequisicao('page1.html', 'page2')">Voltar para anterior</a>
-    </div>
+      <button class="btn-faq" onclick="pergunta(2,'a')"> Microempresa </button>
+
+      <button class="btn-faq" onclick="pergunta(2,'b')"> Pequena empresa </button>
+
+      <button class="btn-faq" onclick="pergunta(2,'c')"> Média empresa </button>
+
+      <button class="btn-faq" onclick="pergunta(2,'d')"> Grande empresa </button>
 
   </div>
+
+  <div class="btn-init-div">
+    <button class="btn-init" onclick="fazerRequisicao('page1.html', 'div_conteudo')"> Voltar para anterior </button>
+    <button class="btn-init"> Voltar ao inicio </button>
+  </div>
+
 </div>

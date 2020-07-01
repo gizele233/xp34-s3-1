@@ -1,41 +1,24 @@
-<div id="page5">
-  <div class="" id="faq-card">
-    <div class="card-body bg-card" id="cardStyle">
-      <h5 class="card-title init-car-title">
-        Qual maior desafio no seu trabalho?
-      </h5>
-    </div>
-    
-    <div>
-      <ul class="list-group" data-toggle="buttons">
-        
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                 type="button" onclick="pergunta(5,'a','page5')">
-                 Falha na comunicação
-        </button>
+<div class="card bg-faq">
+
+  <div id="title-div5">
+    <h3 class="title"> Qual maior desafio no seu trabalho? </h3>
+  </div>
   
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                 type="button" onclick="pergunta(5,'b','page5')">
-                 Resultados não previstos
-        </button>
-  
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                 type="button" onclick="pergunta(5,'c','page5')">
-                 Processos burocráticos
-        </button>
-  
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                 type="button" onclick="pergunta(5,'d','page5')">
-                 Indefinição de tarefas e responsabilidades
-        </button>
-    
-      </ul>
-    </div>
+  <div class="btn-div">
       
-    <div class="card-body" id="card-content">
-      <a class="btn btn-primary card buttons" 
-         onclick="fazerRequisicao('page4.html', 'page5')">Voltar para anterior</a>
-    </div>
+      <button class="btn-faq-5" onclick="pergunta(5,'a')"> Falha na comunicação </button>
+
+      <button class="btn-faq-5" onclick="pergunta(5,'b')"> Resultados não previstos </button>
+
+      <button class="btn-faq-5" onclick="pergunta(5,'c')"> Processos burocráticos </button>
+
+      <button class="btn-faq-5" onclick="pergunta(5,'d')"> Indefinição de tarefas e responsabilidades </button>
   
   </div>
+    
+  <div class="btn-init-div">
+    <button class="btn-init" onclick="fazerRequisicao('page4.html', 'div_conteudo')"> Voltar para anterior </button>
+    <button href="index.html" class="btn-init"> Voltar ao inicio </button>
+  </div>
+
 </div>

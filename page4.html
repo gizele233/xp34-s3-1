@@ -1,41 +1,33 @@
-<div id="page4">
-  <div class="" id="faq-card">
-    <div class="card-body bg-card" id="cardStyle">
-      <h5 class="card-title init-car-title">
-        Você conhece os processos de onde trabalha?
-      </h5>
-    </div>
-    
-    <div>
-      <ul class="list-group" data-toggle="buttons">
-        
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                 type="button" onclick="pergunta(4,'a','page4')">
-                 Conheço os processos, mas as atividades necessárias não são claras.
-        </button>
-  
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                 type="button" onclick="pergunta(4,'b','page4')">
-                 Conheço os processos em nível alto e detalhado.
-        </button>
-  
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq"
-                 type="button" onclick="pergunta(4,'c','page4')">
-                 Conheço completamente os processos, identifico as falhas e oportunidades de melhoria.
-        </button>
-  
-        <button class="list-item btn btn-outline-primary btn-sm btn-faq" id="broken-css"
-                 type="button" onclick="pergunta(4,'d','page4')">
-                 Estou constantemente e proativamente revisando as etapas e atividades do processo, melhorando-as.
-        </button>
-    
-      </ul>
-    </div>
-      
-    <div class="card-body" id="card-content">
-      <a class="btn btn-primary card buttons"
-         onclick="fazerRequisicao('page3.html', 'page4')">Voltar para anterior</a>
-    </div>
-  
+<div class="card bg-faq">
+
+  <div id="title-div4">
+    <h3 class="title"> Você conhece os processos de onde trabalha? </h3>
   </div>
+  
+  <div class="btn-div">
+      
+      <button id="btn-faq-4" onclick="pergunta(4,'a')">
+        Conheço os processos, mas as atividades necessárias não são claras.
+      </button>
+
+      <button id="btn-faq-4" onclick="pergunta(4,'b')">
+        Conheço os processos em nível alto e detalhado.
+      </button>
+
+      <button id="btn-faq-4" onclick="pergunta(4,'c')">
+        Conheço completamente os processos, identifico as falhas e oportunidades de melhoria.
+      </button>
+
+      <button id="btn-faq-4" onclick="pergunta(4,'d')">
+        Estou constantemente e proativamente revisando as etapas e atividades do processo, melhorando-as.
+      </button>
+
+  </div>
+    
+  
+  <div class="btn-init-div">
+    <button class="btn-init" onclick="fazerRequisicao('page3.html', 'div_conteudo')"> Voltar para anterior </button>
+    <button href="index.html" class="btn-init"> Voltar ao inicio </button>
+  </div>
+  
 </div>

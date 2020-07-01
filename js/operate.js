@@ -1,21 +1,23 @@
 var resposta=new Map();
 
-function pergunta(nquest, resp, destino){
+function pergunta(nquest, resp){
+
+    var destino = 'div_conteudo';
 
     var url;
 
-    if(destino=='page2'){
+    if(nquest==2){
         if(resp=='a'){
             addRespostas(nquest,resp);
             return fazerRequisicao('page2-especial.html', destino)
         }
     }
-    if(destino=='page2e'){
+    if(nquest==2.1){
         url='page3.html';
         addRespostas(nquest,resp);
         return fazerRequisicao(url, destino);
     }
-    if(destino=='regs'){
+    if(nquest==6){
         url='page_agradec.html'
         addRespostas(nquest,resp);
         return fazerRequisicao(url, destino);

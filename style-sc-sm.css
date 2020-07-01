@@ -3,149 +3,189 @@
 .nav-brand{
     height: 3.2em;
 }
-/*Estilização card inicial*/
-#init-card-div{
-    margin: auto;
+
+/*Estilização dos cards*/
+
+.card{/*Classe padrão de cards*/
+    padding: 40px 20px 20px 20px;
     position: relative;
+    border-radius: 25px;
+    margin: 3.5%;
+}
+
+#bg-card{ /*Background card inicial*/
     background: #B5E8FA;
+}
+.bg-faq{/*Background todas as paginas */
+    background: #FACEB4;
+    background-image: url(images/top-view-of-people-at-the-meeting-3184287\ 1.png);
     border-radius: 25px;
 }
 
-.init-card-title{
-    margin: auto;
+.title-div{/*Div de titulos*/
     position: relative;
-    padding: 20px 20px 0px 20px;
+    margin: 0px 25px 20px 25px;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.title{ /*Classe de titulos*/
     font-family: Cabin Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 38px;
     line-height: 40px;
     text-align: center;
-
     color: #2F4494;
 }
-
-#init-card-body{
-    margin: auto;
-    padding: 20px 20px 0px 20px;
+#text-div{ /*Caixa de texto inicial*/
+    margin: 0px 5px 0px 5px;
+    padding: 0px 0px 0px 5px;
     position: relative;
+}
+
+.text-content{ /*Caixa de texto inicial*/
     font-family: Cabin Condensed;
     font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
     text-align: center;
     color: #2F4494;
+
+    /*local padding*/
+    padding-bottom: 15px;
 }
 
-.init-card-footer{
-    padding: 20px 20px 20px 20px;
-    margin: auto;
-    position: relative;
-    text-align: center;
-    background: #ffffff;
+#text-draft{ /*Caixa de texto inicial*/
+    font-weight: bolder;
 }
 
-.buttons{
+#btn-start{ /*Botão iniciar teste*/
     position: relative;
-    padding: 20px 20px 20px 20px;
-    justify-content: center;
-    font-size: 17px;
-    color: #ffffff;
-    height: 50px;
-    width: 270px;
-    border-radius: 30px;
+    width: 280px;
+    height: 76.15px;
+    border-radius: 50px;
     background: #2F4494;
-
-}
-
-.form{
-    margin: 15px 15px 0px 15px;
-    height: 70px;
-}
-.input{
-    position: relative;
-    margin: 0px 15px 0px 0px;
-    font-size: 17px;
-    height: 50px;
-    width: 64.49%;
-    border-radius: 30px;
-}
-.btn-form{
-    position: relative;
-    margin: 0px 15px 0px 0px;
-    font-size: 17px;
-    height: 50px;
-    width: 30%;
-    border-radius: 30px;
+    margin: 10% 15% 10% 5%;
     justify-content: center;
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-div{
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    margin:  48px 0px 40px 0px;
+}
+
+.btn-faq{/*Classe padrão de respostas*/
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    width: 314.47px;
+    height: 43.35px;
+
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+
+}
+
+#btn-faq-2{    
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    width: 314.47px;
+    height: 95px;
+
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+
+}
+#btn-faq-4{    
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    width: 314.47px;
+    height: 120px;
+
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+
+}
+
+.btn-faq-5{    
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    width: 314.47px;
+    height: 110px;
+
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+
+}
+
+.btn-back{
+    
+}
+.btn-init-div{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 5px 15px 0px;
+}
+
+.btn-init{
+
+    position: relative;
+    width: 279.11px;
+    height: 40.11px;
+    margin: 7.5px 5px 7.5px 5px;
+
     background: #2F4494;
-}
+    border-radius: 50px;
 
-/*Estilização cards*/
-
-.card{
-    margin: auto;
-    padding: 20px 20px 20px 20px;
-}
-.card-bt{
-    margin: auto;
-    padding: 20px 20px 20px 20px;
-    color: #ffffff;
-}
-
-
-.card-tittle{
-    margin: auto;
-    justify-content: center;
-}
-
-#faq-card{
-    border-radius: 25px;
-    background-color: #FACEB4;
-    margin-bottom: 0px;
-    padding-bottom: 5px;
-}
-
-.bg-card{
-    background-image: url('images/background.png');
-    height: 300px;
-    margin-top: 30px;
-}
-
-.card-space{
-    margin: 14px;
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
     text-align: center;
-    justify-content: center;
+    color: #FFFFFF;
 
 }
 
-#card-content{
-    margin: auto;
-    justify-content: center;
-}
 
-#card-agradec{
-    text-align: center;
-    justify-content: center;
-    margin: 40px;
-}
+/*Rodapé*/
 
-#init-btn{
-    padding: 30px;
-}
-.btn-faq{
-    padding: 10px 10px 10px 10px;
-    margin: 15px 15px 0px 15px;
-    height: 45px;
-    border-radius: 30px;
-
-}
-#broken-css{
-    height: 60px;
-}
-
-.footer{
+#footer{
     background-color: rgba(0, 0, 0, 0);
     color:rgba(0, 0, 0, 1);
     position: fixed;
@@ -156,17 +196,4 @@
 #copyright{
     position: relative;
     padding-left: 40%;
-}
-
-/*Tipografia*/
-
-@font-face{
-    font-family: Cambia Condensed;
-    src: url(fonts/Cabin_Condensed/CabinCondensed-SemiBold.ttf);
-
-    font-family: Asap;
-    src: url(fonts/Asap/Asap-Regular.ttf);
-
-    font-family: Hind;
-    src: url(fonts/Hind/Hind-Regular.ttf);
 }
