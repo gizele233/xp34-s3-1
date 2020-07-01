@@ -4,6 +4,10 @@
     height: 3.2em;
 }
 
+.secao{
+    position: relative;
+    margin-bottom: 40px;
+}
 /*Estilização dos cards*/
 
 .card{/*Classe padrão de cards*/
@@ -80,7 +84,7 @@
 .btn-div{
     margin: auto;
     padding: 10px 0px 10px 0px;
-    margin:  48px 0px 40px 0px;
+    margin:  40px 0px 40px 0px;
 }
 
 .btn-faq{/*Classe padrão de respostas*/
@@ -100,10 +104,46 @@
     border-radius: 50px;
 
 }
+.inputFaq{/*Classe padrão de respostas*/
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    width: 314.47px;
+    height: 43.35px;
+    padding-left: 20px;
+
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+
+}
+.textInput{/*Classe padrão de respostas*/
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    padding-left: 20px;
+    width: 314.47px;
+    height: 43.35px;
+    justify-content: center;
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+
+}
 
 #btn-faq-2{    
     position: relative;
-    margin: 20px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     width: 314.47px;
     height: 95px;
 
@@ -196,4 +236,9 @@
 #copyright{
     position: relative;
     padding-left: 40%;
+}
+
+
+.icon{
+    width: 4.5%;
 }

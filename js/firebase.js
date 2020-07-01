@@ -1,6 +1,6 @@
 (function(){
     // Your web app's Firebase configuration
-    var firebaseConfig = {
+    const firebaseConfig = {
     apiKey: "AIzaSyAkFeKswioj6Eqh9r9dZGTarJasOeyMN5M",
     authDomain: "sigma-shtl.firebaseapp.com",
     databaseURL: "https://sigma-shtl.firebaseio.com",

@@ -2,7 +2,7 @@ var resposta=new Map();
 
 function pergunta(nquest, resp){
 
-    var destino = 'div_conteudo';
+    var destino = 'div_destino';
 
     var url;
 
@@ -14,11 +14,6 @@ function pergunta(nquest, resp){
     }
     if(nquest==2.1){
         url='page3.html';
-        addRespostas(nquest,resp);
-        return fazerRequisicao(url, destino);
-    }
-    if(nquest==6){
-        url='page_agradec.html'
         addRespostas(nquest,resp);
         return fazerRequisicao(url, destino);
     }
