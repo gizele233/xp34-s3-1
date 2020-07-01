@@ -2,7 +2,7 @@ var httpRequest="";
 
 function fazerRequisicao(url, destino){
 
-    document.getElementById(destino).innerHTML = "<center><img src='loader.gif'></center>";
+    document.getElementById(destino).innerHTML = "<center><img src='images/load.gif'></center>";
 
     if(window.XMLHttpRequest){
         httpRequest = new XMLHttpRequest();
