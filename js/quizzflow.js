@@ -1,4 +1,4 @@
-var httpRequest;
+var httpRequest="";
 
 function fazerRequisicao(url, destino){
 
@@ -49,7 +49,7 @@ function situacaoRequisicao(){
 
         if(httpRequest.status == 200){
 
-            document.getElementById('div_conteudo').innerHTML = httpRequest.responseText;
+            document.getElementById('div_destino').innerHTML = httpRequest.responseText;
         
         }
 
