@@ -1,0 +1,40 @@
+<div class="card bg-faq">
+
+    <div class="title-div">
+      <h3 class="title"> Obrigade pela participação!  </h3>
+    </div>
+
+     <div id="text-div">
+
+      <p class="text-content">
+        Por favor, informe seu nome e e-mail que
+         possamos enviar o seu eBook!
+      </p>
+
+    </div>
+
+    <div class="btn-div">
+        
+      <form method="POST" action="https://smtl.gama.academy/leads/bfeebc01-b7e1-11ea-8228-89cff86db9a0">
+        <div class="form-row card-space">
+          <div class="form-group">
+            <input class="form-control card-space inputFaq" id="nome" name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" 
+              title="Digite seu nome completo" placeholder="Insira seu nome completo" required/> 
+            <input class="form-control card-space inputFaq" id="email" name="email" type="email" 
+              title="Digite um email válido" placeholder="Insira seu email" required/>
+          </div>
+        </div>
+          <div class="card-body" id="card-content">
+            <button class="btn-init" type="submit" onclick="fazerRequisicao('page8.html', 'div_destino')" class="btn btn-secondary">Ver recomendação</button><br>
+          </div>
+      </form>
+
+    </div>
+
+    <div class="btn-init-div">
+        <button class="btn-init" onclick="fazerRequisicao('page2.html', 'div_destino')"> Voltar para anterior </button>
+        <button class="btn-init"> <a class="btn-init" href='index.html'>Voltar ao inicio</a> </button>
+    </div>
+
+
+  </div>
