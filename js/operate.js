@@ -37,16 +37,15 @@ function addTool(){
     tool = document.getElementById('tool').value;
     pergunta(6,tool);
 }
-
-function addData(){
-    nome = document.getElementById('nome').value;
-    email = document.getElementById('email').value;
-    
-    create(nome, email, resposta);
-    
-}   
+  
 
 /**Adicionar elementos das listas**/
 function addRespostas(nquest, resp){
     resposta.set(nquest, resp);
 }
+
+function postar(){
+    nome = document.getElementById('nome').value;
+    email = document.getElementById('email').value;
+    
+} 
