@@ -1,7 +1,9 @@
-/*Estilização navbar*/
+    /*Estilização navbar*/
 
 .nav-brand{
     height: 3.2em;
+}
+.nav{
 }
 
 .secao{
@@ -242,3 +244,4 @@
 .icon{
     width: 4.5%;
 }
+

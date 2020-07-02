@@ -41,7 +41,7 @@ function addTool(){
 function addData(){
     nome = document.getElementById('nome').value;
     email = document.getElementById('email').value;
-    fazerRequisicao('page8.html', 'div_destino');
+    
     create(nome, email, resposta);
     
 }   
