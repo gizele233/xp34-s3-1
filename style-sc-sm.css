@@ -17,10 +17,37 @@
     position: relative;
     border-radius: 25px;
     margin: 3.5%;
+} 
+.card-1{
+    padding-bottom: 132px;
 }
-
+.card-2{
+    padding-bottom: 57px;
+}
+.card-2.1{
+    padding-bottom: -6px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-4 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-top: 3.5%;
+    margin-bottom: 0.5%;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.card-5 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.card-6{
+    padding-top: 20px;
+}
 #bg-card{ /*Background card inicial*/
     background: #B5E8FA;
+    padding-bottom: 41px;
 }
 .bg-faq{/*Background todas as paginas */
     background: #FACEB4;
@@ -34,6 +61,25 @@
     padding: 0px 20px 0px 20px;
 
 }
+.title-div-2.1{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.title-div-3{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.title-div-5 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 .title{ /*Classe de titulos*/
     font-family: Cabin Condensed;
@@ -43,7 +89,18 @@
     line-height: 40px;
     text-align: center;
     color: #2F4494;
+    margin-bottom: 1.5rem;
+    margin-top: 18px;
 }
+.title-4 {
+    margin-bottom: 15px;
+    margin-top: 21px;
+}
+.title-5{
+    margin-bottom: 0px;
+    margin-top: 13px;
+}
+
 #text-div{ /*Caixa de texto inicial*/
     margin: 0px 5px 0px 5px;
     padding: 0px 0px 0px 5px;
@@ -82,13 +139,43 @@
     line-height: 32px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 15%;
+    margin-bottom: 32%;
 }
 .btn-div{
     margin: auto;
     padding: 10px 0px 10px 0px;
     margin:  40px 0px 40px 0px;
 }
+.btn-div-2.1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.btn-div-3{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 27px;
+}
+.btn-div-4 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.btn-div-5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 
+.btn-3{
+    padding-left: 8px;
+    margin-left: 15px;
+}
 .btn-faq{/*Classe padrão de respostas*/
     position: relative;
     margin: 20px 0px 0px 0px;
@@ -203,6 +290,16 @@
     margin: 10px 10px 10px 10px;
     padding: 10px 5px 15px 0px;
 }
+.btn-init-div-4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.btn-init-div-5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 .btn-init{
 
@@ -223,8 +320,17 @@
     color: #FFFFFF;
 
 }
-
-
+#tool{
+    padding-left: 18px;
+}
+#btn-6{
+    padding-left: 8px;
+    margin-left: 15px;
+}
+#card-content {
+    padding-left: 7px;
+    padding-right: 0px;
+}
 /*Rodapé*/
 
 #footer{
